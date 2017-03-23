@@ -7,6 +7,8 @@
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
+<br/>
+
 This plugin installs [asdf](https://github.com/asdf-vm/asdf) and initializes it using an oh-my-fish plugin. It also provides a few helper functions.
 
 ## Install
