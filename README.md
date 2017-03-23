@@ -30,6 +30,12 @@ Helper function for listing all installed asdf plugins with all their respective
 $ asdf-list-all
 ```
 
+Helper functions for listing all active tools and their versions. This reads from `.tool-versions` files recursively up the directory tree starting from `pwd`. It also ignores global versions defined in `~/.tool-versions`.
+
+```fish
+$ asdf-tools
+```
+
 
 # TODO
 
