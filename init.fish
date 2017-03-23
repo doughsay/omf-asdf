@@ -4,3 +4,5 @@
 # * $package       package name
 # * $path          package path
 # * $dependencies  package dependencies
+
+source ~/.asdf/asdf.fish

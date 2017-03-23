@@ -7,13 +7,9 @@
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
-
-This plugin just provides access to an already installed [asdf](https://github.com/asdf-vm/asdf). Load this plugin to gain access to it without having to copy the completions manually and source the `asdf.fish` file in your `config.fish`.
+This plugin installs [asdf](https://github.com/asdf-vm/asdf) and initializes it using an oh-my-fish plugin. It also provides a few helper functions.
 
 ## Install
-
-Install [asdf](https://github.com/asdf-vm/asdf) using their instructions. (Currently only the default installation directory `~/.asdf` is supported.) Then install this plugin:
 
 ```fish
 $ omf install asdf
@@ -24,6 +20,12 @@ $ omf install asdf
 
 ```fish
 $ asdf <command> # see asdf documentation
+```
+
+Helper function for listing all installed asdf plugins with all their respective installed versions:
+
+```fish
+$ asdf-list-all
 ```
 
 
