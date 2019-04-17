@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t omf-asdf:test -f test/Dockerfile .
+
+script:
+  - docker run --rm omf-asdf:test

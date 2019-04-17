@@ -1,9 +1,11 @@
 if test -d ~/.asdf
-  echo "using existing asdf installation in ~./asdf"
+    echo "using existing asdf installation in ~./asdf"
 else
-  echo "installing asdf v0.5.1 into ~./asdf..."
+    echo "installing latest asdf into ~./asdf..."
 
-  git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.5.1
+    git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+    cd ~/.asdf
+    git checkout (git describe --abbrev=0 --tags)
 
-  echo "done!"
+    echo "done!"
 end
