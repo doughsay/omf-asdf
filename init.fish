@@ -5,4 +5,7 @@
 # * $path          package path
 # * $dependencies  package dependencies
 
-source ~/.asdf/asdf.fish
+set -q ASDF_DIR
+or set ASDF_DIR $HOME/.asdf
+
+source $ASDF_DIR/asdf.fish
